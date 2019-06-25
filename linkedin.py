@@ -79,7 +79,7 @@ if __name__ == '__main__':
     driver.get("https://www.linkedin.com/login?trk=guest_homepage-basic_nav-header-signin")
     authenticator = Authenticator(driver)
     try:
-        driver = authenticator.login('kal@medtrace.live','padmasri')
+        driver = authenticator.login('youremailaddress','yourpassword')
     except Exception as e:
         print("Error: {}".format(str(e)))
     sales_navigator_url = "https://www.linkedin.com/sales?trk=d_flagship3_nav"
